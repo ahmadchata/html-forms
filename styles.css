@@ -1,0 +1,18 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:#ECEEF1;
+}
+.formcontainer {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    background: white;
+}
+.formcontainer ul {
+    list-style-type: none;
+}
