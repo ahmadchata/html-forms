@@ -6,7 +6,6 @@
 }
 body {
     background:#ECEEF1;
-    
 }
 #main-container {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,18 +13,17 @@ body {
     display: grid;
     grid-template-rows: 2fr 2fr 680px 1fr;
     margin: auto;
-
 }
 .login ul {
     list-style-type: none;
     padding-right: 5px;
 }
 .login {
-        display: inline-flex;
-        font-size: 13.5px;
-        width: fit-content;
-        padding: 20px;
-        justify-self: end;   
+    display: inline-flex;
+    font-size: 13.5px;
+    width: fit-content;
+    padding: 20px;
+    justify-self: end;   
 }
 #loginsettings {
     width: 100px;
@@ -33,7 +31,6 @@ body {
     background-color: #0077C5;
     color: white;
     border-radius: 5px;
-   
 }
 .formcontainer {
     display: block;
@@ -102,14 +99,13 @@ h3 {
 .formcontainer span {
     font-size: 13px;
     color: rgb(56, 55, 55);
-    
 }
 .formcontainer #terms {
     text-align: center;
     padding-top: 20px;
 }
 footer {
-   text-align: center;
+    text-align: center;
 }
 footer span {
     font-weight: lighter;
