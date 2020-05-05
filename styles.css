@@ -12,7 +12,7 @@ body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #4C4C4C;
     display: grid;
-    grid-template-rows: 2fr 2fr 700px 1fr;
+    grid-template-rows: 2fr 2fr 680px 1fr;
     margin: auto;
 
 }
