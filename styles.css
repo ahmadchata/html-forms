@@ -9,9 +9,12 @@ body {
     
 }
 #main-container {
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #4C4C4C;
     display: grid;
-    grid-template-rows: 2fr 2fr 20px 700px 2fr;
-    position: absolute;
+    grid-template-rows: 2fr 2fr 700px 1fr;
+    margin: auto;
+
 }
 .login ul {
     list-style-type: none;
@@ -22,24 +25,14 @@ body {
         font-size: 13.5px;
         width: fit-content;
         padding: 20px;
-        justify-self: end;  
-        color: rgb(92, 90, 90);  
+        justify-self: end;   
 }
 #loginsettings {
     width: 100px;
     height: 38px;
-    background-color: rgb(5, 112, 252);
+    background-color: #0077C5;
     color: white;
     border-radius: 5px;
-}
-#heading {
-    text-align: center;
-    font-size: 30px;
-    color: slategrey;
-}
-#subheading {
-    text-align: center;
-    font-size: larger;
    
 }
 .formcontainer {
@@ -47,21 +40,22 @@ body {
     max-width: 400px;
     margin: auto;
     background: white;
-    min-height: 600px;
-    padding: 20px;
-    border: solid 1px grey;
+    min-height: 680px;
+    padding: 15px;
+    border: solid 1px #4C4C4C;
+}
+#heading{
+    text-align: center;
 }
 #headinglabel {
     font-weight: 5px;
     font-size: x-large;
-    color: rgb(53, 52, 52);
     text-align: center;
     padding: 10px;
 }
 .formheader p {
     font-weight: 4px;
     font-size: 17px;
-    color: rgb(53, 52, 52);
     text-align: center;
 }
 .formheader p a {
@@ -77,10 +71,10 @@ body {
 padding-top: 30px;
 }
 .formcontainer ul li input {
-    width: 320px;
+    width: 345px;
     height: 25px;
     justify-self: center;
-    border: rgb(165, 162, 162) solid 1px;
+    border: #4C4C4C solid 1px;
 }
 h3 {
     padding-bottom: 5px;
@@ -91,18 +85,19 @@ h3 {
     color: rgb(43, 41, 41);
 }
 .formcontainer button {
-    background-color: rgb(5, 112, 252);
+    background-color: #0077C5;
     width: 270px;
     height: 40px;
     border-radius: 5px;
     color: white;
-    font-weight: 5px;
+    font-weight: lighter;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 .formcontainer #btn {
+    width: fit-content;
+    margin: auto;
     padding-top: 30px;
-    padding-left: 30px;
 }
 .formcontainer span {
     font-size: 13px;
@@ -113,7 +108,35 @@ h3 {
     text-align: center;
     padding-top: 20px;
 }
-#footer {
-
+footer {
    text-align: center;
+}
+footer span {
+    font-weight: lighter;
+    font-size: small;
+}
+.footerbutton {
+    float: right;
+    bottom: 0;
+    border: none;
+    border-radius: 4px;
+    position: fixed;
+    font-size: x-large;
+    font-weight: 1px;
+    background: gray;
+    color: white;
+    padding: 4px;
+}
+.footerbutton span {
+    font-weight: lighter;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #0077C5;
+}
+.recaptcha {
+    background: gray;
+    bottom: 0;
+    padding: none;
 }
