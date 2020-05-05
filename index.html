@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>HTML Forms</title>
+    <title>Intuit Account</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/youtube_icon.png">
@@ -11,42 +11,69 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="loginsettings">
-                <span>Already have an Intuit account?</span>
-                <span>I forgot my User ID or Password</span>
-            </div>
-            <button>Sign In</button>
-        </header>
+    <div id="main-container">
+        <div class="login">
+
+            <ul>
+                <li><label >Already have an Intuit account?</label></li>
+                <li><label ><a href="#"> I forgot my User ID or Password</a></label></li>
+            </ul>
+            <button id="loginsettings">Sign In</button>
+
+        </div>
+
+        <div id="heading">
+            <h1>intuit</h1>
+        </div>
+        <div id="subheading">
+            <span>mint</span>
+            <span>quickbooks</span>
+            <span>turbotax</span>
+        </div>
         <div class="formcontainer">
             <img>
             <form>
                 <div class="formheader">
-                    <label id="headinglabel">Create an Intuit account</label>
-                    <label>One account for everything Intuit, including Mint.</label>
-                    <label><a href="#">Learn more</a></label>
+                    <p id="headinglabel">Create an Intuit account</p>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <p><a href="#">Learn more</a></p>
                 </div>
                 <ul>
                     <li>
-                        <label>Email address</label>
-                        <input type="text" name="Email">
+                        <h3>Email address</h3>
+                        <input type="text" name="Email" id="email">
                     </li>
                     <li>
-                        <label>Phone (recommended)</label>
+                        <h3>Phone (recommended)</h3>
                         <input type="number" name="Phone">
+                        <p>Standard call, messaging or data rates may apply.</p>
                     </li>
                     <li>
-                        <label>Password</label>
+                        <h3>Password</h3>
                         <input type="text" name="Password">
                     </li>
+                    <div id="btn">
                     <button>Create Account</button>
+                </div>
                 </ul>
+                <div id="terms">
+                    <span>By clicking Create account, you agree to our
+                        Terms and have read and acknowledge our Privacy Statement.</span>
+                </div>
             </form>
         </div>
-        <footer>
-            
-        </footer>
+
+        <div id="footer">
+            <footer>
+                <span>Legal Privacy Security
+                    © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint
+                    are
+                    registered trademarks of Intuit Inc.
+                    Terms and conditions, features, support, pricing, and service options subject to change without
+                    notice</span>
+            </footer>
+        </div>
+
     </div>
 </body>
 
