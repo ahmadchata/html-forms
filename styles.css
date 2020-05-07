@@ -1,0 +1,229 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eceef1;
+}
+
+#main-container {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4c4c4c;
+  display: grid;
+  margin: auto;
+}
+
+.login ul {
+  list-style-type: none;
+  padding-right: 5px;
+}
+
+.login {
+  display: inline-flex;
+  font-size: 13.5px;
+  width: fit-content;
+  padding: 20px;
+  justify-self: end;
+}
+
+#loginsettings {
+  width: 100px;
+  height: 38px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+}
+
+#loginsettings img,
+#createbutton img {
+  padding-right: 5px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.formcontainer {
+  display: block;
+  width: 380px;
+  margin: auto;
+  background: white;
+  min-height: 670px;
+  padding: 30px;
+  border: solid 1px #c7c7c7;
+}
+
+#heading,
+#subheading {
+  text-align: center;
+  max-height: fit-content;
+}
+
+#subheading {
+  padding-bottom: 15px;
+}
+
+#heading img {
+  margin: auto;
+  height: 80px;
+  width: 180px;
+}
+
+#subheading img {
+  margin-right: 4px;
+  vertical-align: middle;
+  height: 23px;
+  width: 23px;
+}
+
+footer span {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.formcontainer span {
+  font-size: 13px;
+  color: rgb(56, 55, 55);
+}
+
+.recaptcha span {
+  font-size: 10px;
+}
+
+.footerbutton span {
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+#subheading span {
+  margin-right: 9px;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+footer span a {
+  padding-left: 10px;
+  color: #505050;
+}
+
+.formheader p a {
+  text-align: center;
+  font-size: 14px;
+}
+
+#subheading a {
+  color: #757575;
+}
+
+#headinglabel {
+  font-weight: 5px;
+  font-size: x-large;
+  text-align: center;
+  padding: 10px;
+}
+
+.formheader p {
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+}
+
+.formcontainer ul {
+  list-style-type: none;
+  width: 320px;
+  margin: 0;
+  display: block;
+  padding: 10px;
+}
+
+.formcontainer ul li {
+  width: fit-content;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.formcontainer ul li label {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.formcontainer ul li input {
+  display: block;
+  justify-self: center;
+  width: 300px;
+  height: 34px;
+  border: #c7c7c7 solid 1px;
+  border-radius: 5px;
+  padding: 0 6px 0 8px;
+  margin-top: 10px;
+}
+
+.formcontainer ul li p {
+  font-size: 10px;
+  padding: 5px 0;
+  color: #444;
+}
+
+#lock {
+  background: url("images/password_lock.png");
+  background-repeat: no-repeat;
+  height: 30px;
+  background-position: right;
+  background-size: 20px;
+  background-position-x: 315px;
+}
+
+.formcontainer button {
+  background-color: hsl(204, 100%, 39%);
+  width: 318px;
+  height: 44px;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 15px;
+}
+
+#createbutton {
+  padding-top: 30px;
+  width: max-content;
+  margin: auto;
+}
+
+#terms span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.formcontainer #terms {
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footerbutton {
+  right: 7%;
+  bottom: 0;
+  border: none;
+  border-radius: 2px;
+  position: fixed;
+  background: #323232;
+  color: white;
+  padding: 10px 12px;
+}
+
+.recaptcha {
+  background: #eceef1;
+  margin: 32px -30px -30px -30px;
+  padding: 16px;
+  text-align: center;
+}
